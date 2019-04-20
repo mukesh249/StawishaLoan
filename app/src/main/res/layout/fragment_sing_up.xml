@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.SingUp">
+
+    <LinearLayout
+        android:layout_below="@+id/sin_lin"
+        android:id="@+id/tv_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:gravity="center|start"
+            android:text="@string/get_loan_in_3_easy_steps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:gravity="center|start"
+            android:text="@string/_1_create_your_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:gravity="center|start"
+            android:text="@string/_2_enter_identification_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:gravity="center|start"
+            android:text="@string/_3_enter_your_loan_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/signin_layout"
+        android:layout_below="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_260sdp">
+
+        <ImageView
+            android:id="@+id/tri_angle"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="74dp"
+            android:src="@drawable/tri" />
+
+        <android.support.v7.widget.CardView
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="@dimen/_18sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp">
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/buttonroundconner_gradient"
+            android:elevation="@dimen/_6sdp"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+    </RelativeLayout>
+
+
+
+</ScrollView>

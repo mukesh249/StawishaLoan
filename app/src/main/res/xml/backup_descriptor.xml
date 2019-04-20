@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- TODO Remove the following "exclude" elements to make them a part of the auto backup -->
+    <!-- Exclude the shared preferences file that contains the GCM registrationId -->
+    <exclude
+        domain="sharedpref"
+        path="Lang.xml" />
+    <exclude
+        domain="sharedpref"
+        path="sign_people_id.xml" />
+    <exclude
+        domain="sharedpref"
+        path="Leebano.xml" />
+    <exclude
+        domain="sharedpref"
+        path="sub_product_id.xml" />
+    <exclude
+        domain="sharedpref"
+        path="reg_access_token.xml" />
+    <exclude
+        domain="sharedpref"
+        path="Order_Time.xml" />
+    <exclude
+        domain="sharedpref"
+        path="sub_product_name.xml" />
+    <exclude
+        domain="sharedpref"
+        path="LatLng.xml" />
+    <exclude
+        domain="sharedpref"
+        path="Address.xml" />
+    <exclude
+        domain="sharedpref"
+        path="reg_people_otp.xml" />
+    <exclude
+        domain="sharedpref"
+        path="reg_people_id.xml" />
+    <exclude
+        domain="sharedpref"
+        path="reg_fb_access_token.xml" />
+    <exclude
+        domain="sharedpref"
+        path="login.xml" />
+    <exclude
+        domain="sharedpref"
+        path="UserName.xml" />
+</full-backup-content>
